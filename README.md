@@ -11,7 +11,6 @@ Sivashreet Maharana
  -  BTrack is one stop solution for Complete Industrial/Commercial Asset Managment System.
 
 **Target Problem:**
-
 Industries and Enterpise firm/companies manages their asset using various legacy and modern methods of technologies, this methods often uses technologies like hand-held scanner, legacy pen-and-paper logs, human security inception and QR & Barcode based tracking. Some of this technologies consists major serious issues such as:
 
  - No Digital track of asset.
@@ -45,3 +44,31 @@ Industries and Enterpise firm/companies manages their asset using various legacy
 14.  Active Beacon based tracking for asset that are on frequent moment such as Hospital bed, Testing equipment, projectors and etc.
 15.  Live Dashboard for both Beacon and Active RFID setup.
 
+## Modules
+
+ - Web Application
+	 - Dashboard
+		 - Server Stats
+		 - Total Reader Status
+		 - Asset Status
+		 - Tags Status
+		 - Asset Movement Analysis & History
+	 - Asset Management Page
+	 - Login Page
+		 - Department based login determination.
+	 - Request Asset Page.
+		 - Asset movement request.
+		 - Admin access request.
+	 - Alert Page
+		 - Reader status alert
+		 - Asset status alert
+		 - Asset movement alert
+		 - Server Status alert.
+		 - Alert analysis
+	 - External Display Device (Fixed next to reader to exit or entry point for asset and other status to be displayed)
+		 - Current reader status.
+		 - Current location status.
+		 - Current location asset movement status.
+		 - Server status.
+		 - Emergency setting.
+		 - Weekly/Daily service maintenance.
