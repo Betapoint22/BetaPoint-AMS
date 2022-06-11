@@ -7,23 +7,25 @@ Sivashreet Maharana
 
 # About the Product
 
-1.  BTrack is an asset management and tracking product based on Active and Passive RFID.
-2.  BTrack is one stop solution for Complete Industrial/Commercial Asset Managment System.
+ -  BTrack is an asset management and tracking product based on Active and Passive RFID.
+ -  BTrack is one stop solution for Complete Industrial/Commercial Asset Managment System.
 
 **Target Problem:**
 Industries and Enterpise firm/companies manages their asset using various legacy and modern methods of technologies, this methods often uses technologies like hand-held scanner, legacy pen-and-paper logs, human security inception and QR & Barcode based tracking. Some of this technologies consists major serious issues such as:
 
-**1.**  No Digital track of asset.
-**2.**  No Remote tracking application.
-**3.**  In-house Server's or On-premises Server. This incrases risk of data security.
-**4.**  No Live movement tracking.
-**5.**  Lack of dynamic alert system.
-**6.**  No Automated process from aseet registration till delivery.
-**7.**  Tags or Barcode lacks security that can be hacked(changing tags details or barcode details using tags/barcode writer device).
-**8.**  Lack proper dynamic Dashboard.
-**9.**  No Cloud Backup.
-**10.**  No Cloud application and dynamic on-prenise to cloud load balancer.
-**11.**  Cannot be integrated into any system such as SAP, Azure, AWS or GCP
+ - No Digital track of asset.
+ - No Remote tracking application.
+ - In-house Server's or On-premises Server. This incrases risk of data
+   security.
+ - No Live movement tracking. 
+ - Lack of dynamic alert system.
+ - No Automated process from aseet registration till delivery.
+ - Tags or Barcode lacks security that can be hacked(changing tags
+   details or barcode details using tags/barcode writer device).
+ - Lack proper dynamic Dashboard.
+ - No Cloud Backup.
+ - No Cloud application and dynamic on-prenise to cloud load balancer.
+ - Cannot be integrated into any system such as SAP, Azure, AWS or GCP
 
 **Solutions:**
 1.  Active RFID based tracking and monitoring.
