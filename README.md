@@ -11,6 +11,7 @@ Sivashreet Maharana
  -  BTrack is one stop solution for Complete Industrial/Commercial Asset Managment System.
 
 **Target Problem:**
+
 Industries and Enterpise firm/companies manages their asset using various legacy and modern methods of technologies, this methods often uses technologies like hand-held scanner, legacy pen-and-paper logs, human security inception and QR & Barcode based tracking. Some of this technologies consists major serious issues such as:
 
  - No Digital track of asset.
