@@ -72,3 +72,23 @@ Industries and Enterpise firm/companies manages their asset using various legacy
 		 - Server status.
 		 - Emergency setting.
 		 - Weekly/Daily service maintenance.
+ - Python based Automation & Backend Server Side Operation.
+	- Each python file for each RFID Reader (Easy Scalable and migration friendly)
+	- Python as a service based appraoch.
+	- Module I
+		- MQTT
+		- Email Service.
+		- Tags and tag reading.
+		- logs (all operation and serverside logs)
+		- Database operation .
+		- API
+		- Hardware and Sofware firmware.
+		- Reader scanning and settings operation.
+		- Asset/tags validation.
+		- Asset exiting/starting point validation.
+		- Asset entry/ Destination point validation.
+		- Auto reconnect.
+		- Check asset movement elapsed time.
+ - Nodered based backend
+	 - Reader Status operation.
+	 - Asset Movement display
