@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/6bcfeb6c-c978-425a-98e3-66f4b2f3d2e4/microsoft.web/sites/subscriptions/6bcfeb6c-c978-425a-98e3-66f4b2f3d2e4/resourceGroups/Deployment/providers/Microsoft.Web/sites/betapointams",
+    "appService.deploySubpath": "."
+}
