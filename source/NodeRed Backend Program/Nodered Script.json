@@ -1,0 +1,2009 @@
+[
+    {
+        "id": "d3a37030d5e5d4d1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5b7a6766e4763dc2",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1fceced7f75fc5a0",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "53ad69db5a4aaca7",
+        "type": "MSSQL-CN",
+        "tdsVersion": "7_4",
+        "name": "Local SQL Server",
+        "server": "10.0.175.122",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "asset",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true
+    },
+    {
+        "id": "3305dee9ecce6dd1",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "7f95e7feb4c8c00b",
+        "type": "ui_group",
+        "name": "Reader Status",
+        "tab": "c9dea51b010b41c0",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e2988f2f9ce65c7b",
+        "type": "MSSQL-UCG-CN",
+        "name": "SQL Local",
+        "server": "10.0.175.122",
+        "port": "1433",
+        "encyption": true,
+        "database": "asset"
+    },
+    {
+        "id": "a85094f594aef5ee",
+        "type": "ui_group",
+        "name": "13577137",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "04b54b3720da0809",
+        "type": "ui_group",
+        "name": "Asset Management System",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7fa3930863182636",
+        "type": "websocket-client",
+        "path": "",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "494c222d5a94c90b",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 30
+    },
+    {
+        "id": "4687be7bca63f9cf",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 2,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "376fa77868293714",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "0f845f46ed68b3d5",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f2033b86b267e36d",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3cb30cf54bbb134b",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "8780cd88f83614fe",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5f37a3010214e675",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "8a30e14cb0f35a09",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "fd86990536493abc",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5cc3c7d719d1a9ed",
+        "type": "ui_spacer",
+        "z": "d3a37030d5e5d4d1",
+        "name": "spacer",
+        "group": "494c222d5a94c90b",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "657ff5e9497addca",
+        "type": "mqtt-broker",
+        "name": "Server MQTT",
+        "broker": "10.0.175.122",
+        "port": "1887",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "65535",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "49afab5b1699c9a8",
+        "type": "ui_tab",
+        "name": "Campus 20 Dash Screen",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1d344527e8669b17",
+        "type": "ui_group",
+        "name": "Asset Status",
+        "tab": "49afab5b1699c9a8",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "329668fd7445f19e",
+        "type": "ui_tab",
+        "name": "Reader Status",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b2064e47eeed611f",
+        "type": "ui_group",
+        "name": "Reader",
+        "tab": "329668fd7445f19e",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cbbbfdb6b6dcffad",
+        "type": "ui_tab",
+        "name": "Campus 12 Dash Screen",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d3f55c4d741dd59e",
+        "type": "ui_group",
+        "name": "Asset Status",
+        "tab": "cbbbfdb6b6dcffad",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fc5f9f5257549201",
+        "type": "ui_tab",
+        "name": "Campus 8",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "92762ec6ab32fdd1",
+        "type": "ui_group",
+        "name": "Asset Status",
+        "tab": "fc5f9f5257549201",
+        "order": 1,
+        "disp": true,
+        "width": 27,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c9dea51b010b41c0",
+        "type": "ui_tab",
+        "name": "Database",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2cc3cb3c821cc62d",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "c9dea51b010b41c0",
+        "order": 1,
+        "disp": true,
+        "width": 27
+    },
+    {
+        "id": "63896221baa8836e",
+        "type": "mqtt in",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "topic": "678569/status",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "657ff5e9497addca",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "89fbb33b5a231930"
+            ]
+        ]
+    },
+    {
+        "id": "89fbb33b5a231930",
+        "type": "function",
+        "z": "d3a37030d5e5d4d1",
+        "name": "Get Data",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 140,
+        "wires": [
+            [
+                "cecb5a6a792aa5cc",
+                "f6e69d67f425ae5b",
+                "3e095c76e00a9b4d"
+            ]
+        ]
+    },
+    {
+        "id": "cecb5a6a792aa5cc",
+        "type": "ui_template",
+        "z": "d3a37030d5e5d4d1",
+        "group": "1d344527e8669b17",
+        "name": "",
+        "order": 1,
+        "width": 27,
+        "height": 12,
+        "format": "<h1 class=\"change\">{{msg.payload}}</h1>\n\n<style>\n    h1.change\n    {\n      color:white;\n      font-size: 840%;\n      text-align:center;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a6f48ec0b2bdf20b",
+        "type": "mqtt in",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "topic": "1357137/status",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "657ff5e9497addca",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 540,
+        "wires": [
+            [
+                "231205f855e07b6a"
+            ]
+        ]
+    },
+    {
+        "id": "231205f855e07b6a",
+        "type": "function",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 620,
+        "wires": [
+            [
+                "f6be6efad1d9dc96",
+                "8ce8145c0d6be008",
+                "c2fbad9010b35348"
+            ]
+        ]
+    },
+    {
+        "id": "f6be6efad1d9dc96",
+        "type": "ui_template",
+        "z": "d3a37030d5e5d4d1",
+        "group": "d3f55c4d741dd59e",
+        "name": "",
+        "order": 1,
+        "width": 27,
+        "height": 13,
+        "format": "<h1 class=\"change\">{{msg.payload}}</h1>\n\n<style>\n    h1.change\n    {\n      color:white;\n      font-size: 840%;\n      text-align:center;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6e69d67f425ae5b",
+        "type": "ui_audio",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "group": "1d344527e8669b17",
+        "voice": "Google US English",
+        "always": false,
+        "x": 640,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c2fbad9010b35348",
+        "type": "ui_audio",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "group": "d3f55c4d741dd59e",
+        "voice": "Google US English",
+        "always": "",
+        "x": 580,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "8ce8145c0d6be008",
+        "type": "debug",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3e095c76e00a9b4d",
+        "type": "debug",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "5546eef5a4955a86",
+        "type": "inject",
+        "z": "d3a37030d5e5d4d1",
+        "name": "Clean Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 340,
+        "y": 380,
+        "wires": [
+            [
+                "cecb5a6a792aa5cc",
+                "f6be6efad1d9dc96",
+                "9836cf0d80c3e1b0"
+            ]
+        ]
+    },
+    {
+        "id": "ddb7933f4c4ea21c",
+        "type": "mqtt in",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "topic": "2714273/status",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "657ff5e9497addca",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 820,
+        "wires": [
+            [
+                "ccf48084eff7dd0b"
+            ]
+        ]
+    },
+    {
+        "id": "ccf48084eff7dd0b",
+        "type": "function",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 900,
+        "wires": [
+            [
+                "9836cf0d80c3e1b0",
+                "e7d9e88d90299b15",
+                "349f2f6b4a8c4a87"
+            ]
+        ]
+    },
+    {
+        "id": "9836cf0d80c3e1b0",
+        "type": "ui_template",
+        "z": "d3a37030d5e5d4d1",
+        "group": "92762ec6ab32fdd1",
+        "name": "",
+        "order": 1,
+        "width": 27,
+        "height": 13,
+        "format": "<h1 class=\"change\">{{msg.payload}}</h1>\n\n<style>\n    h1.change\n    {\n      color:white;\n      font-size: 840%;\n      text-align:center;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "349f2f6b4a8c4a87",
+        "type": "ui_audio",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "group": "d3f55c4d741dd59e",
+        "voice": "Google US English",
+        "always": "",
+        "x": 580,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "e7d9e88d90299b15",
+        "type": "debug",
+        "z": "d3a37030d5e5d4d1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "30156242ac15266f",
+        "type": "ping",
+        "z": "5b7a6766e4763dc2",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "",
+        "host": "10.0.175.93",
+        "timer": "5",
+        "inputs": 0,
+        "x": 210,
+        "y": 120,
+        "wires": [
+            [
+                "4d2b1878df54af9b"
+            ]
+        ]
+    },
+    {
+        "id": "f96e65751be08dd2",
+        "type": "ping",
+        "z": "5b7a6766e4763dc2",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "",
+        "host": "10.0.175.250",
+        "timer": "5",
+        "inputs": 0,
+        "x": 210,
+        "y": 300,
+        "wires": [
+            [
+                "0489fc29c1bd04c4"
+            ]
+        ]
+    },
+    {
+        "id": "4d2b1878df54af9b",
+        "type": "function",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "func": "if(msg.payload == false)\n{\n    msg.payload = \"Device Disconnected\";\n    return msg;\n}\nelse\n{\n    msg.payload = \"Device Connected\"\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "3061422f60a936b4",
+                "555fe5c554a61adb"
+            ]
+        ]
+    },
+    {
+        "id": "0489fc29c1bd04c4",
+        "type": "function",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "func": "if(msg.payload == false)\n{\n    msg.payload = \"Device Disconnected\";\n    return msg;\n}\nelse\n{\n    msg.payload = \"Device Connected\"\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 300,
+        "wires": [
+            [
+                "c619fa3e59e4928a",
+                "1129bb0478f8695b"
+            ]
+        ]
+    },
+    {
+        "id": "3061422f60a936b4",
+        "type": "ui_text",
+        "z": "5b7a6766e4763dc2",
+        "group": "b2064e47eeed611f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Campus 20",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 790,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c619fa3e59e4928a",
+        "type": "ui_text",
+        "z": "5b7a6766e4763dc2",
+        "group": "b2064e47eeed611f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Campus 12",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "555fe5c554a61adb",
+        "type": "debug",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1129bb0478f8695b",
+        "type": "debug",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d1a25a48c4dc69d1",
+        "type": "ping",
+        "z": "5b7a6766e4763dc2",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "",
+        "host": "10.0.175.240",
+        "timer": "5",
+        "inputs": 0,
+        "x": 210,
+        "y": 520,
+        "wires": [
+            [
+                "58d40472d8da3548"
+            ]
+        ]
+    },
+    {
+        "id": "58d40472d8da3548",
+        "type": "function",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "func": "if(msg.payload == false)\n{\n    msg.payload = \"Device Disconnected\";\n    return msg;\n}\nelse\n{\n    msg.payload = \"Device Connected\"\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 520,
+        "wires": [
+            [
+                "f740c328284a182b",
+                "3ae3095e4d15b41e"
+            ]
+        ]
+    },
+    {
+        "id": "f740c328284a182b",
+        "type": "ui_text",
+        "z": "5b7a6766e4763dc2",
+        "group": "b2064e47eeed611f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Campus 6 G1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 840,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3ae3095e4d15b41e",
+        "type": "debug",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "6ea2235f6d5dd21e",
+        "type": "ping",
+        "z": "5b7a6766e4763dc2",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "",
+        "host": "10.0.175.242",
+        "timer": "5",
+        "inputs": 0,
+        "x": 210,
+        "y": 760,
+        "wires": [
+            [
+                "de82bbbddae63e27"
+            ]
+        ]
+    },
+    {
+        "id": "de82bbbddae63e27",
+        "type": "function",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "func": "if(msg.payload == false)\n{\n    msg.payload = \"Device Disconnected\";\n    return msg;\n}\nelse\n{\n    msg.payload = \"Device Connected\"\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 760,
+        "wires": [
+            [
+                "6395268bba3d606b",
+                "5247fb3756b89c5b"
+            ]
+        ]
+    },
+    {
+        "id": "6395268bba3d606b",
+        "type": "ui_text",
+        "z": "5b7a6766e4763dc2",
+        "group": "b2064e47eeed611f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Campus 8",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 830,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "5247fb3756b89c5b",
+        "type": "debug",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "249f32da350c774e",
+        "type": "ping",
+        "z": "5b7a6766e4763dc2",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "",
+        "host": "10.0.175.241",
+        "timer": "5",
+        "inputs": 0,
+        "x": 210,
+        "y": 1020,
+        "wires": [
+            [
+                "5bd98746e0ed87f3"
+            ]
+        ]
+    },
+    {
+        "id": "5bd98746e0ed87f3",
+        "type": "function",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "func": "if(msg.payload == false)\n{\n    msg.payload = \"Device Disconnected\";\n    return msg;\n}\nelse\n{\n    msg.payload = \"Device Connected\"\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1020,
+        "wires": [
+            [
+                "739a14b285ba3cd6",
+                "67bbfbd60e482094"
+            ]
+        ]
+    },
+    {
+        "id": "739a14b285ba3cd6",
+        "type": "ui_text",
+        "z": "5b7a6766e4763dc2",
+        "group": "b2064e47eeed611f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Campus 6",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 830,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "67bbfbd60e482094",
+        "type": "debug",
+        "z": "5b7a6766e4763dc2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "91ef67aad1ac2816",
+        "type": "inject",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "ce2a69e8226366c9",
+                "2e72c54f24bfc0a0"
+            ]
+        ]
+    },
+    {
+        "id": "671f7ed9745a24ef",
+        "type": "MSSQL",
+        "z": "1fceced7f75fc5a0",
+        "mssqlCN": "53ad69db5a4aaca7",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "topic",
+        "queryOptType": "msg",
+        "paramsOpt": "queryParams",
+        "paramsOptType": "none",
+        "rows": "rows",
+        "rowsType": "msg",
+        "params": [],
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "a60825fc94945c4a",
+                "05845946c83972f8"
+            ]
+        ]
+    },
+    {
+        "id": "ce2a69e8226366c9",
+        "type": "function",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "func": "deviceId = \"TempKIIT1\";\ndatas = msg.payload['data'];\ntime_date = msg.payload['Time'];\nparameter = msg.payload['type'];\nmsg.topic = \"Select * from employees\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "671f7ed9745a24ef"
+            ]
+        ]
+    },
+    {
+        "id": "091028d3e33da401",
+        "type": "debug",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "a60825fc94945c4a",
+        "type": "ui_table",
+        "z": "1fceced7f75fc5a0",
+        "group": "2cc3cb3c821cc62d",
+        "name": "",
+        "order": 0,
+        "width": "27",
+        "height": "20",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1010,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "05845946c83972f8",
+        "type": "function",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 380,
+        "wires": [
+            [
+                "091028d3e33da401"
+            ]
+        ]
+    },
+    {
+        "id": "2c40e7248ce8ab2b",
+        "type": "ui_form",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "label": "",
+        "group": "2cc3cb3c821cc62d",
+        "order": 1,
+        "width": "27",
+        "height": "20",
+        "options": [
+            {
+                "label": "First Name",
+                "value": "fname",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Middle Name",
+                "value": "mname",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Last Name",
+                "value": "lname",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Dept Work",
+                "value": "dept_work",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Mobile",
+                "value": "contact_no",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Hiring Date",
+                "value": "hire_date",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Job",
+                "value": "job",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Education",
+                "value": "ed_level",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Gender",
+                "value": "sex",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "DOB",
+                "value": "DOB",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Employee Title",
+                "value": "emp_title",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Salary",
+                "value": "emp_salary",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Commision ",
+                "value": "emp_commision",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Nationality",
+                "value": "nationality",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "ID Card Number",
+                "value": "id_card_no",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "fname": "",
+            "mname": "",
+            "lname": "",
+            "dept_work": "",
+            "contact_no": "",
+            "hire_date": "",
+            "job": "",
+            "ed_level": "",
+            "sex": "",
+            "DOB": "",
+            "emp_title": "",
+            "emp_salary": "",
+            "emp_commision": "",
+            "nationality": "",
+            "id_card_no": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 310,
+        "y": 520,
+        "wires": [
+            [
+                "a21784ed0dff2e32"
+            ]
+        ]
+    },
+    {
+        "id": "a21784ed0dff2e32",
+        "type": "function",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "func": "fname = msg.payload.fname\nmname = msg.payload.mname\nlname = msg.payload.lname\ndept_work = msg.payload.dept_work\ncontact_no = msg.payload.contact_no\nhire_date = Date.parse(msg.payload.hire_date);\njob = msg.payload.job\ned_level = msg.payload.ed_level\nsex = msg.payload.sex\nDOB = Date.parse(msg.payload.DOB);\nemp_title = msg.payload.emp_title\nemp_salary = msg.payload.emp_salary\nemp_commision = msg.payload.emp_salary\nnationality = msg.payload.nationality\nid_card_no = msg.payload.id_card_no\nmsg.payload = {fname,mname,lname,dept_work,contact_no,hire_date,job,ed_level,sex,DOB,emp_title,emp_salary,emp_commision,nationality,id_card_no}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 520,
+        "wires": [
+            [
+                "c01bb57157c42a11",
+                "79b26d3069c9cbe7"
+            ]
+        ]
+    },
+    {
+        "id": "c01bb57157c42a11",
+        "type": "debug",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "7e962ab9219207ce",
+        "type": "inject",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 500,
+        "wires": [
+            [
+                "2c40e7248ce8ab2b"
+            ]
+        ]
+    },
+    {
+        "id": "79b26d3069c9cbe7",
+        "type": "MSSQL",
+        "z": "1fceced7f75fc5a0",
+        "mssqlCN": "53ad69db5a4aaca7",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "insert into Employees(first_name,middle_name,last_name,dept_work,contact_no,hire_date,job,sex,DOB,emp_title,emp_salary,emp_commision,nationality,id_card_no)values(@fname,@mname,@lname,@dept_work,@hire_date,@job,@ed_level,@sex,@DOB,@emp_title,@emp_salary,@emp_commision,@nationality,@id_card_no);\n",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "",
+        "queryOptType": "editor",
+        "paramsOpt": "",
+        "paramsOptType": "editor",
+        "rows": "rows",
+        "rowsType": "msg",
+        "params": [
+            {
+                "output": false,
+                "name": "fname",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.fname",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "mname",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.mname",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "lname",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.lname",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "dept_work",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.dept_work",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "contact_no",
+                "type": "Char(10)",
+                "valueType": "msg",
+                "value": "payload.contact_no",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "hire_date",
+                "type": "Date",
+                "valueType": "msg",
+                "value": "payload.hire_date",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "job",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.job",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "ed_level",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.ed_level",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "sex",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.sex",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "DOB",
+                "type": "date",
+                "valueType": "msg",
+                "value": "payload.DOB",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "emp_title",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.emp_title",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "emp_salary",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.emp_salary",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "emp_commision",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.emp_commision",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "nationality",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.nationality",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "id_card_no",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.id_card_no",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            }
+        ],
+        "x": 680,
+        "y": 480,
+        "wires": [
+            [
+                "c01bb57157c42a11",
+                "28dd60d0e4b1065d"
+            ]
+        ]
+    },
+    {
+        "id": "2e72c54f24bfc0a0",
+        "type": "function",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "func": "deviceId = \"TempKIIT1\";\ndatas = msg.payload['data'];\ntime_date = msg.payload['Time'];\nparameter = msg.payload['type'];\nmsg.topic = \"Select * from users\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "2116133a84644634"
+            ]
+        ]
+    },
+    {
+        "id": "2116133a84644634",
+        "type": "MSSQL",
+        "z": "1fceced7f75fc5a0",
+        "mssqlCN": "53ad69db5a4aaca7",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "topic",
+        "queryOptType": "msg",
+        "paramsOpt": "queryParams",
+        "paramsOptType": "none",
+        "rows": "rows",
+        "rowsType": "msg",
+        "params": [],
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [
+                "4207c0b8e7420f06"
+            ]
+        ]
+    },
+    {
+        "id": "4207c0b8e7420f06",
+        "type": "ui_table",
+        "z": "1fceced7f75fc5a0",
+        "group": "2cc3cb3c821cc62d",
+        "name": "",
+        "order": 0,
+        "width": "27",
+        "height": "20",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1010,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "81d7706d5c8cf476",
+        "type": "function",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 860,
+        "wires": [
+            [
+                "587ec94a9dbaf267"
+            ]
+        ]
+    },
+    {
+        "id": "587ec94a9dbaf267",
+        "type": "MSSQL",
+        "z": "1fceced7f75fc5a0",
+        "mssqlCN": "53ad69db5a4aaca7",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "",
+        "queryOptType": "editor",
+        "paramsOpt": "",
+        "paramsOptType": "editor",
+        "rows": "rows",
+        "rowsType": "msg",
+        "params": [
+            {
+                "output": false,
+                "name": "fname",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.fname",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "mname",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.mname",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "lname",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.lname",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "dept_work",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.dept_work",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "contact_no",
+                "type": "Char(10)",
+                "valueType": "msg",
+                "value": "payload.contact_no",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "hire_date",
+                "type": "Date",
+                "valueType": "msg",
+                "value": "payload.hire_date",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "job",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.job",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "ed_level",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.ed_level",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "sex",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.sex",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "DOB",
+                "type": "date",
+                "valueType": "msg",
+                "value": "payload.DOB",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "emp_title",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.emp_title",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "emp_salary",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.emp_salary",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "emp_commision",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.emp_commision",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "nationality",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.nationality",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "id_card_no",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.id_card_no",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            }
+        ],
+        "x": 1040,
+        "y": 880,
+        "wires": [
+            [
+                "bb96789187c9a173"
+            ]
+        ]
+    },
+    {
+        "id": "bb96789187c9a173",
+        "type": "debug",
+        "z": "1fceced7f75fc5a0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "28dd60d0e4b1065d",
+        "type": "MSSQL",
+        "z": "1fceced7f75fc5a0",
+        "mssqlCN": "53ad69db5a4aaca7",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "insert into Users(user_id,user_name,email,password,user_type)values(Select emp_no from Employees where id_card_no=@id_card_no,'user6@user.com','user6','user');",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "payload",
+        "queryOptType": "editor",
+        "paramsOpt": "",
+        "paramsOptType": "editor",
+        "rows": "rows",
+        "rowsType": "msg",
+        "params": [
+            {
+                "output": false,
+                "name": "id_card_no",
+                "type": "VarChar(255)",
+                "valueType": "msg",
+                "value": "payload.id_card_no",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            }
+        ],
+        "x": 700,
+        "y": 700,
+        "wires": [
+            [
+                "81d7706d5c8cf476"
+            ]
+        ]
+    }
+]
