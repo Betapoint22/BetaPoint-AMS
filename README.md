@@ -3,7 +3,7 @@
 BTrack Dynamic Asset Managment System using Active RFID and Active Beacons 
 
 Developed By:
-Sivashreet Maharana & Team
+Sivashreet Maharana & Team,
 Betapoint Technologies
 
 # About the Product
